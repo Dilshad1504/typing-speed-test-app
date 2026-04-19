@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-image: linear-gradient(to right, #f3eaff, #dac0ff);
+    min-height: 100vh;
+}
+
+.main-heading {
+    color: #690cb0;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.description {
+    color: #3e4c59;
+    font-family: "Roboto";
+}
+
+.clock-img {
+    height: 8vh;
+}
+
+.text-card {
+    background-color: #f3eaff;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #9aa5b1;
+}
+
+.quote-display {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 500;
+    /* font-size: 10px; */
+}
+
+.count-down {
+    font-family: "Roboto";
+    font-size: 35px;
+}
+
+.submit-btn {
+    color: #ffffff;
+    font-family: "Roboto";
+    background-color: #690cb0;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    height: 35px;
+    width: 70px;
+}
+
+.reset-btn {
+    background-color: #ffffff;
+    font-family: "Roboto";
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    height: 35px;
+    width: 70px;
+}
+
+.output {
+    color: #3e4c59;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.signature {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.myName {
+    font-weight: 600;
+    font-family: "Caveat";
+    font-size: 23px;
+}

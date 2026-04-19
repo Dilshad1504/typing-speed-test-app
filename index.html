@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <div class="bg-container pl-4 pr-4 pt-4 pb-2">
+        <div class="d-flex justify-content-center">
+            <div class="d-none spinner-border" role="status" id="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <div class="container d-none" id="typingTestContainer">
+            <div class="row">
+                <div class="col-md-4 d-none d-md-block"></div>
+                <div class="col-12 col-md-4">
+                    <h1 class="main-heading mb-3">Speed</br>Typing Test</h1>
+                    <p class="description mb-5">On your fingers lets set Go!</p>
+                    <div class="d-flex mb-4" style="height: 11vh" id="speedTypingTest">
+                        <img src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" class="clock-img mr-4" />
+                        <div class="d-flex flex-column justify-content-end">
+                            <p class="quote-display"><span id="timer" class="count-down">1</span> seconds</p>
+                            <!-- <p class="count-down" id="timer">1 seconds</span></p> -->
+                        </div>
+                    </div>
+                    <div class="text-card p-3 mb-4 d-flex flex-column justify-content-center">
+                        <p class="quote-display" id="quoteDisplay"></p>
+                        <textarea rows="5" cols="40" id="quoteInput" placeholder="Type here!!"></textarea>
+                    </div>
+                    <p class="output mb-4" id="result"></p>
+                    <button class="submit-btn mr-4" id="submitBtn">Submit</button>
+                    <button class="reset-btn" id="resetBtn">Reset</button>
+                    <div class="d-flex justify-content-center mt-4">
+                        <p class="signature">Built with ❤️ by <span class="myName">Dilshad</span></p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-none d-md-block"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
